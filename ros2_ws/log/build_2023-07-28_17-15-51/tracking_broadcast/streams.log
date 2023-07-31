@@ -1,0 +1,34 @@
+[0.633s] Invoking command in '/special/ros2_ws/build/tracking_broadcast': PYTHONPATH=/special/ros2_ws/build/tracking_broadcast/prefix_override:/special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /special/ros2_ws/build/tracking_broadcast/build
+[0.821s] running develop
+[0.929s] Removing /special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages/tracking-broadcast.egg-link (link to .)
+[0.961s] Invoked command in '/special/ros2_ws/build/tracking_broadcast' returned '0': PYTHONPATH=/special/ros2_ws/build/tracking_broadcast/prefix_override:/special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /special/ros2_ws/build/tracking_broadcast/build
+[0.962s] Invoking command in '/special/ros2_ws/src/tracking_broadcast': PYTHONPATH=/special/ros2_ws/build/tracking_broadcast/prefix_override:/special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracking_broadcast build --build-base /special/ros2_ws/build/tracking_broadcast/build install --record /special/ros2_ws/build/tracking_broadcast/install.log --single-version-externally-managed
+[1.202s] running egg_info
+[1.203s] writing ../../build/tracking_broadcast/tracking_broadcast.egg-info/PKG-INFO
+[1.203s] writing dependency_links to ../../build/tracking_broadcast/tracking_broadcast.egg-info/dependency_links.txt
+[1.203s] writing entry points to ../../build/tracking_broadcast/tracking_broadcast.egg-info/entry_points.txt
+[1.203s] writing requirements to ../../build/tracking_broadcast/tracking_broadcast.egg-info/requires.txt
+[1.203s] writing top-level names to ../../build/tracking_broadcast/tracking_broadcast.egg-info/top_level.txt
+[1.205s] reading manifest file '../../build/tracking_broadcast/tracking_broadcast.egg-info/SOURCES.txt'
+[1.206s] writing manifest file '../../build/tracking_broadcast/tracking_broadcast.egg-info/SOURCES.txt'
+[1.206s] running build
+[1.206s] running build_py
+[1.206s] creating /special/ros2_ws/build/tracking_broadcast/build
+[1.206s] creating /special/ros2_ws/build/tracking_broadcast/build/lib
+[1.206s] creating /special/ros2_ws/build/tracking_broadcast/build/lib/tracking_broadcast
+[1.206s] copying tracking_broadcast/tracker.py -> /special/ros2_ws/build/tracking_broadcast/build/lib/tracking_broadcast
+[1.206s] copying tracking_broadcast/__init__.py -> /special/ros2_ws/build/tracking_broadcast/build/lib/tracking_broadcast
+[1.206s] running install
+[1.207s] running install_lib
+[1.207s] creating /special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages/tracking_broadcast
+[1.207s] copying /special/ros2_ws/build/tracking_broadcast/build/lib/tracking_broadcast/tracker.py -> /special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages/tracking_broadcast
+[1.207s] copying /special/ros2_ws/build/tracking_broadcast/build/lib/tracking_broadcast/__init__.py -> /special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages/tracking_broadcast
+[1.208s] byte-compiling /special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages/tracking_broadcast/tracker.py to tracker.cpython-310.pyc
+[1.208s] byte-compiling /special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages/tracking_broadcast/__init__.py to __init__.cpython-310.pyc
+[1.208s] running install_data
+[1.209s] running install_egg_info
+[1.210s] Copying ../../build/tracking_broadcast/tracking_broadcast.egg-info to /special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages/tracking_broadcast-0.0.0-py3.10.egg-info
+[1.211s] running install_scripts
+[1.234s] Installing tracker script to /special/ros2_ws/install/tracking_broadcast/lib/tracking_broadcast
+[1.234s] writing list of installed files to '/special/ros2_ws/build/tracking_broadcast/install.log'
+[1.271s] Invoked command in '/special/ros2_ws/src/tracking_broadcast' returned '0': PYTHONPATH=/special/ros2_ws/build/tracking_broadcast/prefix_override:/special/ros2_ws/install/tracking_broadcast/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracking_broadcast build --build-base /special/ros2_ws/build/tracking_broadcast/build install --record /special/ros2_ws/build/tracking_broadcast/install.log --single-version-externally-managed

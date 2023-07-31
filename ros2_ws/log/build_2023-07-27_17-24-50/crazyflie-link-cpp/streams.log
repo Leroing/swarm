@@ -1,0 +1,14 @@
+[0.016s] Invoking command in '/special/ros2_ws/build/crazyflie-link-cpp': /usr/bin/cmake --build /special/ros2_ws/build/crazyflie-link-cpp -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target crazyflieLinkCpp[0m
+[0.084s] [ 47%] Built target crazyflieLinkCpp
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target example_scan[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target example_benchmark[0m
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target example_console[0m
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target example_broadcast[0m
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target cflinkcpp[0m
+[0.138s] [ 57%] Built target example_console
+[0.141s] [ 68%] Built target example_broadcast
+[0.145s] [ 78%] Built target example_benchmark
+[0.153s] [ 89%] Built target example_scan
+[0.171s] [100%] Built target cflinkcpp
+[0.336s] Invoked command in '/special/ros2_ws/build/crazyflie-link-cpp' returned '0': /usr/bin/cmake --build /special/ros2_ws/build/crazyflie-link-cpp -- -j8 -l8

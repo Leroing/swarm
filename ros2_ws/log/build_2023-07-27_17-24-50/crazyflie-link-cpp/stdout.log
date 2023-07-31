@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target crazyflieLinkCpp[0m
+[ 47%] Built target crazyflieLinkCpp
+[35m[1mConsolidate compiler generated dependencies of target example_scan[0m
+[35m[1mConsolidate compiler generated dependencies of target example_benchmark[0m
+[35m[1mConsolidate compiler generated dependencies of target example_console[0m
+[35m[1mConsolidate compiler generated dependencies of target example_broadcast[0m
+[35m[1mConsolidate compiler generated dependencies of target cflinkcpp[0m
+[ 57%] Built target example_console
+[ 68%] Built target example_broadcast
+[ 78%] Built target example_benchmark
+[ 89%] Built target example_scan
+[100%] Built target cflinkcpp

@@ -1,0 +1,50 @@
+[0.009s] Invoking command in '/special/ros2_ws/src/build/crazyflie-link-cpp': /usr/bin/cmake /special/ros2_ws/src/crazyflie-link-cpp -DCMAKE_INSTALL_PREFIX=/special/ros2_ws/src/install/crazyflie-link-cpp
+[0.041s] -- The C compiler identification is GNU 11.3.0
+[0.078s] -- The CXX compiler identification is GNU 11.3.0
+[0.084s] -- Detecting C compiler ABI info
+[0.127s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.136s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.191s] -- Detecting CXX compiler ABI info - done
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.196s] -- Detecting CXX compile features
+[0.197s] -- Detecting CXX compile features - done
+[0.202s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.205s] -- pybind11 v2.10.4 
+[0.222s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[0.238s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.239s] -- Performing Test HAS_FLTO
+[0.313s] -- Performing Test HAS_FLTO - Success
+[0.314s] -- Configuring done
+[0.320s] -- Generating done
+[0.320s] -- Build files have been written to: /special/ros2_ws/src/build/crazyflie-link-cpp
+[0.323s] Invoked command in '/special/ros2_ws/src/build/crazyflie-link-cpp' returned '0': /usr/bin/cmake /special/ros2_ws/src/crazyflie-link-cpp -DCMAKE_INSTALL_PREFIX=/special/ros2_ws/src/install/crazyflie-link-cpp
+[0.325s] Invoking command in '/special/ros2_ws/src/build/crazyflie-link-cpp': /usr/bin/cmake --build /special/ros2_ws/src/build/crazyflie-link-cpp -- -j8 -l8
+[0.356s] [ 15%] [32mBuilding CXX object CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[0.357s] [ 15%] [32mBuilding CXX object CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[0.357s] [ 15%] [32mBuilding CXX object CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[0.357s] [ 21%] [32mBuilding CXX object CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[0.357s] [ 26%] [32mBuilding CXX object CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[0.360s] [ 31%] [32mBuilding CXX object CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[0.360s] [ 36%] [32mBuilding CXX object CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[0.364s] [ 42%] [32mBuilding CXX object CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[3.627s] [ 47%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[3.685s] [ 47%] Built target crazyflieLinkCpp
+[3.702s] [ 52%] [32mBuilding CXX object CMakeFiles/example_scan.dir/examples/scan.cpp.o[0m
+[3.702s] [ 57%] [32mBuilding CXX object CMakeFiles/example_broadcast.dir/examples/broadcast.cpp.o[0m
+[3.703s] [ 63%] [32mBuilding CXX object CMakeFiles/example_console.dir/examples/console.cpp.o[0m
+[3.704s] [ 68%] [32mBuilding CXX object CMakeFiles/example_benchmark.dir/examples/benchmark.cpp.o[0m
+[3.705s] [ 73%] [32mBuilding CXX object CMakeFiles/cflinkcpp.dir/src/python_bindings.cpp.o[0m
+[4.254s] [ 78%] [32m[1mLinking CXX executable example_console[0m
+[4.271s] [ 84%] [32m[1mLinking CXX executable example_broadcast[0m
+[4.285s] [ 89%] [32m[1mLinking CXX executable example_scan[0m
+[4.505s] [ 94%] [32m[1mLinking CXX executable example_benchmark[0m
+[4.567s] [ 94%] Built target example_console
+[4.576s] [ 94%] Built target example_broadcast
+[4.581s] [ 94%] Built target example_scan
+[4.768s] [ 94%] Built target example_benchmark
+[7.855s] [100%] [32m[1mLinking CXX shared module cflinkcpp.cpython-310-x86_64-linux-gnu.so[0m
+[12.343s] [100%] Built target cflinkcpp
+[12.354s] Invoked command in '/special/ros2_ws/src/build/crazyflie-link-cpp' returned '0': /usr/bin/cmake --build /special/ros2_ws/src/build/crazyflie-link-cpp -- -j8 -l8

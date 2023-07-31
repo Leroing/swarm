@@ -1,0 +1,143 @@
+[0.800s] Invoking command in '/special/ros2_ws/src/build/crazyflie': AMENT_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:/special/ros2_ws/install/motion_capture_tracking:/special/ros2_ws/install/crazyflie:/special/ros2_ws/install/motion_capture_tracking_interfaces:/special/ros2_ws/install/crazyflie_sim:/special/ros2_ws/install/crazyflie_examples:/special/ros2_ws/install/crazyflie_interfaces:/special/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/special/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/special/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /special/ros2_ws/src/crazyswarm2/crazyflie -DCMAKE_INSTALL_PREFIX=/special/ros2_ws/src/install/crazyflie
+[1.035s] -- The C compiler identification is GNU 11.3.0
+[1.152s] -- The CXX compiler identification is GNU 11.3.0
+[1.174s] -- Detecting C compiler ABI info
+[1.425s] -- Detecting C compiler ABI info - done
+[1.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.456s] -- Detecting C compile features
+[1.456s] -- Detecting C compile features - done
+[1.460s] -- Detecting CXX compiler ABI info
+[1.838s] -- Detecting CXX compiler ABI info - done
+[1.852s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.852s] -- Detecting CXX compile features
+[1.853s] -- Detecting CXX compile features - done
+[1.862s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.326s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.541s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[2.612s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.621s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.632s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.009s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.012s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.434s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.487s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.641s] -- Looking for pthread.h
+[4.016s] -- Looking for pthread.h - found
+[4.016s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.292s] -- Found Threads: TRUE  
+[4.532s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.298s] -- Found rclpy: 3.3.8 (/opt/ros/humble/share/rclpy/cmake)
+[5.315s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[5.371s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.638s] -- Found crazyflie_interfaces: 2.0.0 (/special/ros2_ws/src/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+[5.925s] -- Found motion_capture_tracking_interfaces: 1.0.0 (/special/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+[6.203s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[6.233s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.344s] -- Configuring done
+[6.420s] -- Generating done
+[6.425s] -- Build files have been written to: /special/ros2_ws/src/build/crazyflie
+[6.467s] Invoked command in '/special/ros2_ws/src/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:/special/ros2_ws/install/motion_capture_tracking:/special/ros2_ws/install/crazyflie:/special/ros2_ws/install/motion_capture_tracking_interfaces:/special/ros2_ws/install/crazyflie_sim:/special/ros2_ws/install/crazyflie_examples:/special/ros2_ws/install/crazyflie_interfaces:/special/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/special/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/special/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /special/ros2_ws/src/crazyswarm2/crazyflie -DCMAKE_INSTALL_PREFIX=/special/ros2_ws/src/install/crazyflie
+[6.467s] Invoking command in '/special/ros2_ws/src/build/crazyflie': AMENT_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:/special/ros2_ws/install/motion_capture_tracking:/special/ros2_ws/install/crazyflie:/special/ros2_ws/install/motion_capture_tracking_interfaces:/special/ros2_ws/install/crazyflie_sim:/special/ros2_ws/install/crazyflie_examples:/special/ros2_ws/install/crazyflie_interfaces:/special/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/special/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/special/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /special/ros2_ws/src/build/crazyflie -- -j8 -l8
+[6.625s] [  2%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[6.637s] [  5%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[6.640s] [  8%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[6.642s] [ 11%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[6.652s] [ 16%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[6.654s] [ 19%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[6.654s] [ 16%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o[0m
+[6.657s] [ 22%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[7.141s] [ 25%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[10.396s] [ 27%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[10.496s] [ 27%] Built target crazyflieLinkCpp
+[10.520s] [ 30%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[10.522s] [ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[14.349s] [ 36%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[14.407s] [ 36%] Built target crazyflie_cpp
+[14.431s] [ 38%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o[0m
+[14.509s] [ 41%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[14.526s] [ 44%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o[0m
+[14.536s] [ 47%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o[0m
+[14.552s] [ 50%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o[0m
+[14.585s] [ 52%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o[0m
+[15.670s] [ 55%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[17.468s] [ 58%] [32m[1mLinking CXX executable listLogVariables[0m
+[17.747s] [ 61%] [32m[1mLinking CXX executable listParams[0m
+[17.992s] [ 63%] [32m[1mLinking CXX executable scan[0m
+[18.438s] [ 63%] Built target listLogVariables
+[18.552s] [ 66%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o[0m
+[18.563s] [ 66%] Built target listParams
+[18.684s] [ 69%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o[0m
+[18.698s] [ 72%] [32m[1mLinking CXX executable listMemories[0m
+[18.773s] [ 72%] Built target scan
+[18.889s] [ 75%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o[0m
+[19.439s] [ 75%] Built target listMemories
+[19.528s] [ 77%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o[0m
+[19.554s] [ 80%] [32m[1mLinking CXX executable reboot[0m
+[20.075s] [ 80%] Built target reboot
+[20.928s] [ 83%] [32m[1mLinking CXX executable battery[0m
+[21.483s] [ 86%] [32m[1mLinking CXX executable console[0m
+[21.497s] [ 86%] Built target battery
+[21.625s] [ 88%] [32m[1mLinking CXX executable version[0m
+[21.880s] [ 88%] Built target console
+[22.030s] [ 88%] Built target version
+[22.533s] [ 91%] [32m[1mLinking CXX executable log[0m
+[22.785s] [ 91%] Built target log
+[22.805s] [ 94%] [32m[1mLinking CXX executable setParam[0m
+[23.073s] [ 94%] Built target setParam
+[28.057s] [ 97%] [32m[1mLinking CXX executable teleop[0m
+[29.149s] [ 97%] Built target teleop
+[46.179s] [100%] [32m[1mLinking CXX executable crazyflie_server[0m
+[48.245s] [100%] Built target crazyflie_server
+[48.254s] Invoked command in '/special/ros2_ws/src/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:/special/ros2_ws/install/motion_capture_tracking:/special/ros2_ws/install/crazyflie:/special/ros2_ws/install/motion_capture_tracking_interfaces:/special/ros2_ws/install/crazyflie_sim:/special/ros2_ws/install/crazyflie_examples:/special/ros2_ws/install/crazyflie_interfaces:/special/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/special/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/special/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /special/ros2_ws/src/build/crazyflie -- -j8 -l8
+[48.282s] Invoking command in '/special/ros2_ws/src/build/crazyflie': AMENT_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:/special/ros2_ws/install/motion_capture_tracking:/special/ros2_ws/install/crazyflie:/special/ros2_ws/install/motion_capture_tracking_interfaces:/special/ros2_ws/install/crazyflie_sim:/special/ros2_ws/install/crazyflie_examples:/special/ros2_ws/install/crazyflie_interfaces:/special/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/special/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/special/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /special/ros2_ws/src/build/crazyflie
+[48.290s] -- Install configuration: ""
+[48.290s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/scan
+[48.292s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/listParams
+[48.293s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/listLogVariables
+[48.295s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/listMemories
+[48.296s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/reboot
+[48.298s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/battery
+[48.299s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/version
+[48.300s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/console
+[48.302s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/log
+[48.303s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/setParam
+[48.304s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/teleop
+[48.310s] -- Set runtime path of "/special/ros2_ws/src/install/crazyflie/lib/crazyflie/teleop" to ""
+[48.310s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/crazyflie_server
+[48.323s] -- Set runtime path of "/special/ros2_ws/src/install/crazyflie/lib/crazyflie/crazyflie_server" to ""
+[48.323s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[48.323s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/chooser.py
+[48.323s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/vel_mux.py
+[48.323s] -- Installing: /special/ros2_ws/src/install/crazyflie/lib/crazyflie/cfmult.py
+[48.323s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//launch
+[48.323s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//launch/launch.py
+[48.323s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//config
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//config/teleop.yaml
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//config/server.yaml
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//config/.crazyflies.yaml.swp
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//config/config.rviz
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie//config/.crazyflies.yaml.swo
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[48.324s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/environment/path.sh
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/environment/path.dsv
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.bash
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.sh
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.zsh
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.dsv
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/package.dsv
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[48.325s] -- Installing: /special/ros2_ws/src/install/crazyflie/share/crazyflie/package.xml
+[48.328s] Invoked command in '/special/ros2_ws/src/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces:/special/ros2_ws/src/install/crazyflie_interfaces:/special/ros2_ws/install/motion_capture_tracking:/special/ros2_ws/install/crazyflie:/special/ros2_ws/install/motion_capture_tracking_interfaces:/special/ros2_ws/install/crazyflie_sim:/special/ros2_ws/install/crazyflie_examples:/special/ros2_ws/install/crazyflie_interfaces:/special/ros2_ws/install/crazyflie_py:/opt/ros/humble LD_LIBRARY_PATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/special/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/special/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/special/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /special/ros2_ws/src/build/crazyflie

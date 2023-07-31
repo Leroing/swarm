@@ -1,0 +1,2 @@
+Invoking command in '/special/ros2_ws/build/crazyflie-link-cpp': /usr/bin/cmake --build /special/ros2_ws/build/crazyflie-link-cpp -- -j8 -l8
+Invoked command in '/special/ros2_ws/build/crazyflie-link-cpp' returned '0': /usr/bin/cmake --build /special/ros2_ws/build/crazyflie-link-cpp -- -j8 -l8
