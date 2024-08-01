@@ -1,1 +1,0 @@
-/special/ros2_ws/src/crazyswarm2/crazyflie_interfaces/msg/LogDataGeneric.msg

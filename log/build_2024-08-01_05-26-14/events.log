@@ -1,0 +1,793 @@
+[0.000000] (-) TimerEvent: {}
+[0.000863] (as2_platform_crazyflie) JobQueued: {'identifier': 'as2_platform_crazyflie', 'dependencies': OrderedDict()}
+[0.000904] (mocap_optitrack) JobQueued: {'identifier': 'mocap_optitrack', 'dependencies': OrderedDict()}
+[0.000926] (as2_platform_crazyflie) JobStarted: {'identifier': 'as2_platform_crazyflie'}
+[0.009871] (mocap_optitrack) JobStarted: {'identifier': 'mocap_optitrack'}
+[0.013482] (as2_platform_crazyflie) JobProgress: {'identifier': 'as2_platform_crazyflie', 'progress': 'cmake'}
+[0.013778] (as2_platform_crazyflie) Command: {'cmd': ['/usr/bin/cmake', '/home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie', '-DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie'], 'cwd': '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thinkpad'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thinkpad'), ('OLDPWD', '/home/thinkpad'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('AS2_GZ_ASSETS_SCRIPT_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/scripts'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thinkpad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thinkpad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thinkpad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thinkpad/.local/bin'), ('SESSION_MANAGER', 'local/thinkpad-ThinkPad-X13-Gen-1:@/tmp/.ICE-unix/1949,unix/thinkpad-ThinkPad-X13-Gen-1:/tmp/.ICE-unix/1949'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5c37dd3_0a71_4b51_a566_3e28f65d802f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1AGIR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/worlds'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thinkpad/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.018557] (mocap_optitrack) JobProgress: {'identifier': 'mocap_optitrack', 'progress': 'cmake'}
+[0.019051] (mocap_optitrack) Command: {'cmd': ['/usr/bin/cmake', '/home/thinkpad/aerostack2ws/src/mocap_optitrack', '-DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/mocap_optitrack'], 'cwd': '/home/thinkpad/aerostack2ws/build/mocap_optitrack', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thinkpad'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thinkpad'), ('OLDPWD', '/home/thinkpad'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('AS2_GZ_ASSETS_SCRIPT_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/scripts'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thinkpad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thinkpad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thinkpad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thinkpad/.local/bin'), ('SESSION_MANAGER', 'local/thinkpad-ThinkPad-X13-Gen-1:@/tmp/.ICE-unix/1949,unix/thinkpad-ThinkPad-X13-Gen-1:/tmp/.ICE-unix/1949'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5c37dd3_0a71_4b51_a566_3e28f65d802f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1AGIR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/worlds'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thinkpad/aerostack2ws/build/mocap_optitrack'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thinkpad/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.081340] (as2_platform_crazyflie) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.082784] (mocap_optitrack) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100049] (-) TimerEvent: {}
+[0.148357] (as2_platform_crazyflie) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.151840] (mocap_optitrack) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.157251] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.161884] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200149] (-) TimerEvent: {}
+[0.233466] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.245382] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.245632] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.245989] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.250686] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.251273] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.260268] (mocap_optitrack) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.260556] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.261014] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.265343] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300258] (-) TimerEvent: {}
+[0.351625] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.366551] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.366943] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.367719] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.368782] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.371899] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.382059] (mocap_optitrack) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.382347] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.382805] (mocap_optitrack) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.384923] (mocap_optitrack) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400354] (-) TimerEvent: {}
+[0.500638] (-) TimerEvent: {}
+[0.592862] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.598680] (mocap_optitrack) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600771] (-) TimerEvent: {}
+[0.701032] (-) TimerEvent: {}
+[0.707865] (mocap_optitrack) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.708017] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.709622] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.775343] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.775511] (mocap_optitrack) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.781218] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.781364] (mocap_optitrack) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.791977] (mocap_optitrack) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.792140] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801127] (-) TimerEvent: {}
+[0.809309] (mocap_optitrack) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.809537] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.848835] (mocap_optitrack) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.849068] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901259] (-) TimerEvent: {}
+[0.955923] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.956069] (mocap_optitrack) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.959279] (mocap_optitrack) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.959669] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001392] (-) TimerEvent: {}
+[1.060580] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.060808] (mocap_optitrack) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.097236] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.097389] (mocap_optitrack) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.101542] (-) TimerEvent: {}
+[1.158921] (mocap_optitrack) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.159079] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.170368] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.170537] (mocap_optitrack) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201684] (-) TimerEvent: {}
+[1.243675] (mocap_optitrack) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.243960] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.244178] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.244279] (mocap_optitrack) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301830] (-) TimerEvent: {}
+[1.315896] (mocap_optitrack) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.317239] (mocap_optitrack) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.317997] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.319106] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401935] (-) TimerEvent: {}
+[1.502249] (-) TimerEvent: {}
+[1.508076] (mocap_optitrack) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.508295] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.602354] (-) TimerEvent: {}
+[1.644990] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.665394] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.702466] (-) TimerEvent: {}
+[1.755157] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found as2_core: 1.0.9 (/opt/ros/humble/share/as2_core/cmake)\n'}
+[1.802576] (-) TimerEvent: {}
+[1.902891] (-) TimerEvent: {}
+[1.989125] (mocap_optitrack) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.003025] (-) TimerEvent: {}
+[2.064439] (mocap_optitrack) StdoutLine: {'line': b'-- Generating done\n'}
+[2.066062] (mocap_optitrack) StdoutLine: {'line': b'-- Build files have been written to: /home/thinkpad/aerostack2ws/build/mocap_optitrack\n'}
+[2.076934] (mocap_optitrack) CommandEnded: {'returncode': 0}
+[2.078499] (mocap_optitrack) JobProgress: {'identifier': 'mocap_optitrack', 'progress': 'build'}
+[2.078555] (mocap_optitrack) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thinkpad/aerostack2ws/build/mocap_optitrack', '--', '-j8', '-l8'], 'cwd': '/home/thinkpad/aerostack2ws/build/mocap_optitrack', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thinkpad'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thinkpad'), ('OLDPWD', '/home/thinkpad'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('AS2_GZ_ASSETS_SCRIPT_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/scripts'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thinkpad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thinkpad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thinkpad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thinkpad/.local/bin'), ('SESSION_MANAGER', 'local/thinkpad-ThinkPad-X13-Gen-1:@/tmp/.ICE-unix/1949,unix/thinkpad-ThinkPad-X13-Gen-1:/tmp/.ICE-unix/1949'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5c37dd3_0a71_4b51_a566_3e28f65d802f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1AGIR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/worlds'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thinkpad/aerostack2ws/build/mocap_optitrack'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thinkpad/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.103141] (-) TimerEvent: {}
+[2.133097] (mocap_optitrack) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/socket.cpp.o\x1b[0m\n'}
+[2.133379] (mocap_optitrack) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/natnet/natnet_packet_definition.cpp.o\x1b[0m\n'}
+[2.133520] (mocap_optitrack) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/version.cpp.o\x1b[0m\n'}
+[2.133824] (mocap_optitrack) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/natnet/natnet_messages.cpp.o\x1b[0m\n'}
+[2.134103] (mocap_optitrack) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/mocap_config.cpp.o\x1b[0m\n'}
+[2.135211] (mocap_optitrack) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/rigid_body_publisher.cpp.o\x1b[0m\n'}
+[2.143978] (mocap_optitrack) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/mocap_node.cpp.o\x1b[0m\n'}
+[2.144681] (mocap_optitrack) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object src/CMakeFiles/mocap_optitrack_mocap_node.dir/data_model.cpp.o\x1b[0m\n'}
+[2.203260] (-) TimerEvent: {}
+[2.224194] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.237487] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.237745] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.303362] (-) TimerEvent: {}
+[2.403708] (-) TimerEvent: {}
+[2.504026] (-) TimerEvent: {}
+[2.604515] (-) TimerEvent: {}
+[2.704957] (-) TimerEvent: {}
+[2.805404] (-) TimerEvent: {}
+[2.905821] (-) TimerEvent: {}
+[3.006190] (-) TimerEvent: {}
+[3.106606] (-) TimerEvent: {}
+[3.207072] (-) TimerEvent: {}
+[3.237996] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid natnet::utilities::stringify_timecode(unsigned int, unsigned int, char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.238259] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:84:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbValid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.238421] (mocap_optitrack) StderrLine: {'line': b'   84 |     bool \x1b[01;35m\x1b[KbValid\x1b[m\x1b[K;\n'}
+[3.238550] (mocap_optitrack) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.262147] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void natnet::DataFrameMessage::deserialize(rclcpp::Logger, const MessageBuffer&, mocap_optitrack::DataModel*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.262628] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:330:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbHasModel\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.262841] (mocap_optitrack) StderrLine: {'line': b'  330 |           bool \x1b[01;35m\x1b[KbHasModel\x1b[m\x1b[K = (params & 0x08) != 0;\n'}
+[3.262996] (mocap_optitrack) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.263126] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:332:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbUnlabeled\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.263389] (mocap_optitrack) StderrLine: {'line': b'  332 |           bool \x1b[01;35m\x1b[KbUnlabeled\x1b[m\x1b[K = (params & 0x10) != 0;\n'}
+[3.263563] (mocap_optitrack) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.263717] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:334:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbActiveMarker\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.263861] (mocap_optitrack) StderrLine: {'line': b'  334 |           bool \x1b[01;35m\x1b[KbActiveMarker\x1b[m\x1b[K = (params & 0x20) != 0;\n'}
+[3.264005] (mocap_optitrack) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.264147] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:322:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbOccluded\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.264299] (mocap_optitrack) StderrLine: {'line': b'  322 |         bool \x1b[01;35m\x1b[KbOccluded\x1b[m\x1b[K = (params & 0x01) != 0;\n'}
+[3.264450] (mocap_optitrack) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.264602] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:324:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbPCSolved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.264767] (mocap_optitrack) StderrLine: {'line': b'  324 |         bool \x1b[01;35m\x1b[KbPCSolved\x1b[m\x1b[K = (params & 0x02) != 0;\n'}
+[3.264927] (mocap_optitrack) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.265085] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:326:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbModelSolved\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.265234] (mocap_optitrack) StderrLine: {'line': b'  326 |         bool \x1b[01;35m\x1b[KbModelSolved\x1b[m\x1b[K = (params & 0x04) != 0;\n'}
+[3.265351] (mocap_optitrack) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.275917] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:484:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbIsRecording\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.276184] (mocap_optitrack) StderrLine: {'line': b'  484 |   bool \x1b[01;35m\x1b[KbIsRecording\x1b[m\x1b[K = (params & 0x01) != 0;\n'}
+[3.276316] (mocap_optitrack) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.276436] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/natnet/natnet_messages.cpp:486:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KbTrackedModelsChanged\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.276589] (mocap_optitrack) StderrLine: {'line': b'  486 |   bool \x1b[01;35m\x1b[KbTrackedModelsChanged\x1b[m\x1b[K = (params & 0x02) != 0;\n'}
+[3.276710] (mocap_optitrack) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.307183] (-) TimerEvent: {}
+[3.342155] (as2_platform_crazyflie) StdoutLine: {'line': b'-- crazyflie_cpp not found\n'}
+[3.407330] (-) TimerEvent: {}
+[3.507743] (-) TimerEvent: {}
+[3.608105] (-) TimerEvent: {}
+[3.708434] (-) TimerEvent: {}
+[3.808811] (-) TimerEvent: {}
+[3.909074] (-) TimerEvent: {}
+[4.009358] (-) TimerEvent: {}
+[4.109701] (-) TimerEvent: {}
+[4.210041] (-) TimerEvent: {}
+[4.310378] (-) TimerEvent: {}
+[4.410720] (-) TimerEvent: {}
+[4.511051] (-) TimerEvent: {}
+[4.611397] (-) TimerEvent: {}
+[4.711806] (-) TimerEvent: {}
+[4.812200] (-) TimerEvent: {}
+[4.912632] (-) TimerEvent: {}
+[5.013039] (-) TimerEvent: {}
+[5.113438] (-) TimerEvent: {}
+[5.213847] (-) TimerEvent: {}
+[5.314294] (-) TimerEvent: {}
+[5.414622] (-) TimerEvent: {}
+[5.514938] (-) TimerEvent: {}
+[5.615385] (-) TimerEvent: {}
+[5.715852] (-) TimerEvent: {}
+[5.816247] (-) TimerEvent: {}
+[5.916538] (-) TimerEvent: {}
+[6.016882] (-) TimerEvent: {}
+[6.117302] (-) TimerEvent: {}
+[6.217603] (-) TimerEvent: {}
+[6.318136] (-) TimerEvent: {}
+[6.356436] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/mocap_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid mocap_optitrack::OptiTrackRosBridge::initialize()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.356675] (mocap_optitrack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thinkpad/aerostack2ws/src/mocap_optitrack/src/mocap_node.cpp:80:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kret\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.356830] (mocap_optitrack) StderrLine: {'line': b'   80 |         int \x1b[01;35m\x1b[Kret\x1b[m\x1b[K = multicastClientSocketPtr->send(\n'}
+[6.356961] (mocap_optitrack) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.419324] (-) TimerEvent: {}
+[6.519684] (-) TimerEvent: {}
+[6.620011] (-) TimerEvent: {}
+[6.720375] (-) TimerEvent: {}
+[6.820649] (-) TimerEvent: {}
+[6.920955] (-) TimerEvent: {}
+[7.021333] (-) TimerEvent: {}
+[7.121599] (-) TimerEvent: {}
+[7.221835] (-) TimerEvent: {}
+[7.322100] (-) TimerEvent: {}
+[7.422338] (-) TimerEvent: {}
+[7.522618] (-) TimerEvent: {}
+[7.622903] (-) TimerEvent: {}
+[7.723161] (-) TimerEvent: {}
+[7.823449] (-) TimerEvent: {}
+[7.923718] (-) TimerEvent: {}
+[8.023977] (-) TimerEvent: {}
+[8.124218] (-) TimerEvent: {}
+[8.224499] (-) TimerEvent: {}
+[8.324802] (-) TimerEvent: {}
+[8.425077] (-) TimerEvent: {}
+[8.525377] (-) TimerEvent: {}
+[8.625646] (-) TimerEvent: {}
+[8.725871] (-) TimerEvent: {}
+[8.826123] (-) TimerEvent: {}
+[8.901816] (mocap_optitrack) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mocap_node\x1b[0m\n'}
+[8.926247] (-) TimerEvent: {}
+[9.026529] (-) TimerEvent: {}
+[9.126813] (-) TimerEvent: {}
+[9.227098] (-) TimerEvent: {}
+[9.327324] (-) TimerEvent: {}
+[9.427569] (-) TimerEvent: {}
+[9.527909] (-) TimerEvent: {}
+[9.628200] (-) TimerEvent: {}
+[9.728453] (-) TimerEvent: {}
+[9.828759] (-) TimerEvent: {}
+[9.889386] (mocap_optitrack) StdoutLine: {'line': b'[100%] Built target mocap_optitrack_mocap_node\n'}
+[9.899442] (mocap_optitrack) CommandEnded: {'returncode': 0}
+[9.919096] (mocap_optitrack) JobProgress: {'identifier': 'mocap_optitrack', 'progress': 'install'}
+[9.927459] (mocap_optitrack) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thinkpad/aerostack2ws/build/mocap_optitrack'], 'cwd': '/home/thinkpad/aerostack2ws/build/mocap_optitrack', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thinkpad'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thinkpad'), ('OLDPWD', '/home/thinkpad'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('AS2_GZ_ASSETS_SCRIPT_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/scripts'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thinkpad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thinkpad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thinkpad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thinkpad/.local/bin'), ('SESSION_MANAGER', 'local/thinkpad-ThinkPad-X13-Gen-1:@/tmp/.ICE-unix/1949,unix/thinkpad-ThinkPad-X13-Gen-1:/tmp/.ICE-unix/1949'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5c37dd3_0a71_4b51_a566_3e28f65d802f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1AGIR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/worlds'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thinkpad/aerostack2ws/build/mocap_optitrack'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thinkpad/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.928894] (-) TimerEvent: {}
+[9.934762] (mocap_optitrack) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.934951] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack//launch\n'}
+[9.935028] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack//launch/mocap.launch.py\n'}
+[9.935125] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack//launch/__pycache__\n'}
+[9.935222] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack//launch/__pycache__/mocap.launch.cpython-310.pyc\n'}
+[9.935299] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack//config\n'}
+[9.935367] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack//config/mocap.yaml\n'}
+[9.935504] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/ament_index/resource_index/package_run_dependencies/mocap_optitrack\n'}
+[9.935647] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/ament_index/resource_index/parent_prefix_path/mocap_optitrack\n'}
+[9.935786] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/environment/ament_prefix_path.sh\n'}
+[9.935937] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/environment/ament_prefix_path.dsv\n'}
+[9.936147] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/environment/path.sh\n'}
+[9.936275] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/environment/path.dsv\n'}
+[9.936449] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.bash\n'}
+[9.936534] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.sh\n'}
+[9.936685] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.zsh\n'}
+[9.936786] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/local_setup.dsv\n'}
+[9.936862] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.dsv\n'}
+[9.936961] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/ament_index/resource_index/packages/mocap_optitrack\n'}
+[9.937046] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig.cmake\n'}
+[9.937120] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/cmake/mocap_optitrackConfig-version.cmake\n'}
+[9.937204] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.xml\n'}
+[9.937399] (mocap_optitrack) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/mocap_optitrack/lib/mocap_optitrack/mocap_node\n'}
+[9.938956] (mocap_optitrack) StdoutLine: {'line': b'-- Set runtime path of "/home/thinkpad/aerostack2ws/install/mocap_optitrack/lib/mocap_optitrack/mocap_node" to ""\n'}
+[9.940830] (mocap_optitrack) CommandEnded: {'returncode': 0}
+[9.976147] (mocap_optitrack) JobEnded: {'identifier': 'mocap_optitrack', 'rc': 0}
+[10.029121] (-) TimerEvent: {}
+[10.129445] (-) TimerEvent: {}
+[10.229864] (-) TimerEvent: {}
+[10.330367] (-) TimerEvent: {}
+[10.430860] (-) TimerEvent: {}
+[10.531427] (-) TimerEvent: {}
+[10.631794] (-) TimerEvent: {}
+[10.732304] (-) TimerEvent: {}
+[10.832784] (-) TimerEvent: {}
+[10.933474] (-) TimerEvent: {}
+[11.034067] (-) TimerEvent: {}
+[11.134422] (-) TimerEvent: {}
+[11.234765] (-) TimerEvent: {}
+[11.335154] (-) TimerEvent: {}
+[11.435580] (-) TimerEvent: {}
+[11.536047] (-) TimerEvent: {}
+[11.636358] (-) TimerEvent: {}
+[11.736616] (-) TimerEvent: {}
+[11.836919] (-) TimerEvent: {}
+[11.937304] (-) TimerEvent: {}
+[12.037836] (-) TimerEvent: {}
+[12.138108] (-) TimerEvent: {}
+[12.238512] (-) TimerEvent: {}
+[12.339281] (-) TimerEvent: {}
+[12.439621] (-) TimerEvent: {}
+[12.540284] (-) TimerEvent: {}
+[12.640888] (-) TimerEvent: {}
+[12.741525] (-) TimerEvent: {}
+[12.842081] (-) TimerEvent: {}
+[12.942539] (-) TimerEvent: {}
+[13.043016] (-) TimerEvent: {}
+[13.143656] (-) TimerEvent: {}
+[13.244113] (-) TimerEvent: {}
+[13.344589] (-) TimerEvent: {}
+[13.445044] (-) TimerEvent: {}
+[13.545419] (-) TimerEvent: {}
+[13.646040] (-) TimerEvent: {}
+[13.746623] (-) TimerEvent: {}
+[13.847251] (-) TimerEvent: {}
+[13.947570] (-) TimerEvent: {}
+[14.048233] (-) TimerEvent: {}
+[14.148621] (-) TimerEvent: {}
+[14.249218] (-) TimerEvent: {}
+[14.349983] (-) TimerEvent: {}
+[14.450319] (-) TimerEvent: {}
+[14.550806] (-) TimerEvent: {}
+[14.651171] (-) TimerEvent: {}
+[14.751793] (-) TimerEvent: {}
+[14.852149] (-) TimerEvent: {}
+[14.952668] (-) TimerEvent: {}
+[15.053029] (-) TimerEvent: {}
+[15.153396] (-) TimerEvent: {}
+[15.253902] (-) TimerEvent: {}
+[15.354319] (-) TimerEvent: {}
+[15.454621] (-) TimerEvent: {}
+[15.555046] (-) TimerEvent: {}
+[15.655356] (-) TimerEvent: {}
+[15.755883] (-) TimerEvent: {}
+[15.856264] (-) TimerEvent: {}
+[15.957025] (-) TimerEvent: {}
+[16.057393] (-) TimerEvent: {}
+[16.157778] (-) TimerEvent: {}
+[16.258223] (-) TimerEvent: {}
+[16.358965] (-) TimerEvent: {}
+[16.459376] (-) TimerEvent: {}
+[16.559736] (-) TimerEvent: {}
+[16.660231] (-) TimerEvent: {}
+[16.760832] (-) TimerEvent: {}
+[16.861283] (-) TimerEvent: {}
+[16.961660] (-) TimerEvent: {}
+[17.062287] (-) TimerEvent: {}
+[17.162696] (-) TimerEvent: {}
+[17.263136] (-) TimerEvent: {}
+[17.363423] (-) TimerEvent: {}
+[17.463669] (-) TimerEvent: {}
+[17.563896] (-) TimerEvent: {}
+[17.664217] (-) TimerEvent: {}
+[17.764605] (-) TimerEvent: {}
+[17.865170] (-) TimerEvent: {}
+[17.965884] (-) TimerEvent: {}
+[18.066335] (-) TimerEvent: {}
+[18.166767] (-) TimerEvent: {}
+[18.267472] (-) TimerEvent: {}
+[18.367773] (-) TimerEvent: {}
+[18.468039] (-) TimerEvent: {}
+[18.568298] (-) TimerEvent: {}
+[18.668575] (-) TimerEvent: {}
+[18.768852] (-) TimerEvent: {}
+[18.869124] (-) TimerEvent: {}
+[18.969395] (-) TimerEvent: {}
+[19.069647] (-) TimerEvent: {}
+[19.169940] (-) TimerEvent: {}
+[19.270211] (-) TimerEvent: {}
+[19.370549] (-) TimerEvent: {}
+[19.470808] (-) TimerEvent: {}
+[19.571099] (-) TimerEvent: {}
+[19.671419] (-) TimerEvent: {}
+[19.771687] (-) TimerEvent: {}
+[19.801015] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[19.810729] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.871777] (-) TimerEvent: {}
+[19.945572] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[19.952126] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.953191] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie/include;/home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie/include/as2_platform_crazyflie\n'}
+[19.953294] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.958990] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[19.959150] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[19.960155] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[19.961427] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.962350] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[19.965711] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.965889] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.966688] (as2_platform_crazyflie) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.967831] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.971904] (-) TimerEvent: {}
+[19.995153] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Generating done\n'}
+[19.997993] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Build files have been written to: /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie\n'}
+[20.013553] (as2_platform_crazyflie) CommandEnded: {'returncode': 0}
+[20.015000] (as2_platform_crazyflie) JobProgress: {'identifier': 'as2_platform_crazyflie', 'progress': 'build'}
+[20.015244] (as2_platform_crazyflie) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie', '--', '-j8', '-l8'], 'cwd': '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thinkpad'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thinkpad'), ('OLDPWD', '/home/thinkpad'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('AS2_GZ_ASSETS_SCRIPT_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/scripts'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thinkpad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thinkpad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thinkpad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thinkpad/.local/bin'), ('SESSION_MANAGER', 'local/thinkpad-ThinkPad-X13-Gen-1:@/tmp/.ICE-unix/1949,unix/thinkpad-ThinkPad-X13-Gen-1:/tmp/.ICE-unix/1949'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5c37dd3_0a71_4b51_a566_3e28f65d802f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1AGIR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/worlds'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thinkpad/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.065452] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o\x1b[0m\n'}
+[20.065726] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o\x1b[0m\n'}
+[20.065999] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o\x1b[0m\n'}
+[20.067505] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o\x1b[0m\n'}
+[20.068306] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o\x1b[0m\n'}
+[20.068589] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o\x1b[0m\n'}
+[20.072024] (-) TimerEvent: {}
+[20.074985] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o\x1b[0m\n'}
+[20.076291] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_copy_as2_platform_crazyflie\n'}
+[20.172125] (-) TimerEvent: {}
+[20.272447] (-) TimerEvent: {}
+[20.372739] (-) TimerEvent: {}
+[20.473058] (-) TimerEvent: {}
+[20.531835] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o\x1b[0m\n'}
+[20.573159] (-) TimerEvent: {}
+[20.673490] (-) TimerEvent: {}
+[20.751731] (as2_platform_crazyflie) StdoutLine: {'line': b'running egg_info\n'}
+[20.752944] (as2_platform_crazyflie) StdoutLine: {'line': b'creating as2_platform_crazyflie.egg-info\n'}
+[20.753409] (as2_platform_crazyflie) StdoutLine: {'line': b'writing as2_platform_crazyflie.egg-info/PKG-INFO\n'}
+[20.753742] (as2_platform_crazyflie) StdoutLine: {'line': b'writing dependency_links to as2_platform_crazyflie.egg-info/dependency_links.txt\n'}
+[20.754179] (as2_platform_crazyflie) StdoutLine: {'line': b'writing top-level names to as2_platform_crazyflie.egg-info/top_level.txt\n'}
+[20.754594] (as2_platform_crazyflie) StdoutLine: {'line': b"writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'\n"}
+[20.759781] (as2_platform_crazyflie) StdoutLine: {'line': b"reading manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'\n"}
+[20.760804] (as2_platform_crazyflie) StdoutLine: {'line': b"writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'\n"}
+[20.773602] (-) TimerEvent: {}
+[20.822615] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 44%] Built target ament_cmake_python_build_as2_platform_crazyflie_egg\n'}
+[20.873712] (-) TimerEvent: {}
+[20.974050] (-) TimerEvent: {}
+[21.074392] (-) TimerEvent: {}
+[21.174708] (-) TimerEvent: {}
+[21.275013] (-) TimerEvent: {}
+[21.375299] (-) TimerEvent: {}
+[21.475584] (-) TimerEvent: {}
+[21.575884] (-) TimerEvent: {}
+[21.676199] (-) TimerEvent: {}
+[21.776446] (-) TimerEvent: {}
+[21.876725] (-) TimerEvent: {}
+[21.977027] (-) TimerEvent: {}
+[22.077289] (-) TimerEvent: {}
+[22.177538] (-) TimerEvent: {}
+[22.277816] (-) TimerEvent: {}
+[22.378056] (-) TimerEvent: {}
+[22.478317] (-) TimerEvent: {}
+[22.578608] (-) TimerEvent: {}
+[22.678869] (-) TimerEvent: {}
+[22.779112] (-) TimerEvent: {}
+[22.879332] (-) TimerEvent: {}
+[22.979593] (-) TimerEvent: {}
+[23.079872] (-) TimerEvent: {}
+[23.180123] (-) TimerEvent: {}
+[23.280410] (-) TimerEvent: {}
+[23.380670] (-) TimerEvent: {}
+[23.480955] (-) TimerEvent: {}
+[23.581219] (-) TimerEvent: {}
+[23.614591] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libcrazyflieLinkCpp.a\x1b[0m\n'}
+[23.681352] (-) TimerEvent: {}
+[23.724682] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 50%] Built target crazyflieLinkCpp\n'}
+[23.742872] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o\x1b[0m\n'}
+[23.743799] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object _deps/crazyflie_cpp-build/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o\x1b[0m\n'}
+[23.781440] (-) TimerEvent: {}
+[23.881735] (-) TimerEvent: {}
+[23.981989] (-) TimerEvent: {}
+[24.082229] (-) TimerEvent: {}
+[24.182491] (-) TimerEvent: {}
+[24.282736] (-) TimerEvent: {}
+[24.383039] (-) TimerEvent: {}
+[24.483290] (-) TimerEvent: {}
+[24.583527] (-) TimerEvent: {}
+[24.683766] (-) TimerEvent: {}
+[24.784037] (-) TimerEvent: {}
+[24.884263] (-) TimerEvent: {}
+[24.984533] (-) TimerEvent: {}
+[25.084845] (-) TimerEvent: {}
+[25.185082] (-) TimerEvent: {}
+[25.285334] (-) TimerEvent: {}
+[25.385575] (-) TimerEvent: {}
+[25.485844] (-) TimerEvent: {}
+[25.586122] (-) TimerEvent: {}
+[25.686380] (-) TimerEvent: {}
+[25.786621] (-) TimerEvent: {}
+[25.886860] (-) TimerEvent: {}
+[25.987122] (-) TimerEvent: {}
+[26.087386] (-) TimerEvent: {}
+[26.187629] (-) TimerEvent: {}
+[26.287921] (-) TimerEvent: {}
+[26.388181] (-) TimerEvent: {}
+[26.488441] (-) TimerEvent: {}
+[26.545740] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libcrazyflie_cpp.a\x1b[0m\n'}
+[26.588575] (-) TimerEvent: {}
+[26.634191] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 66%] Built target crazyflie_cpp\n'}
+[26.653912] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_swarm_node.dir/src/crazyflie_platform.cpp.o\x1b[0m\n'}
+[26.654166] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_node.dir/src/crazyflie_platform.cpp.o\x1b[0m\n'}
+[26.655883] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_node.dir/src/crazyflie_node.cpp.o\x1b[0m\n'}
+[26.656108] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_swarm_node.dir/src/crazyflie_swarm_nodes.cpp.o\x1b[0m\n'}
+[26.688717] (-) TimerEvent: {}
+[26.789002] (-) TimerEvent: {}
+[26.889299] (-) TimerEvent: {}
+[26.989606] (-) TimerEvent: {}
+[27.089903] (-) TimerEvent: {}
+[27.190213] (-) TimerEvent: {}
+[27.290543] (-) TimerEvent: {}
+[27.390877] (-) TimerEvent: {}
+[27.491218] (-) TimerEvent: {}
+[27.591562] (-) TimerEvent: {}
+[27.691908] (-) TimerEvent: {}
+[27.792211] (-) TimerEvent: {}
+[27.892546] (-) TimerEvent: {}
+[27.992869] (-) TimerEvent: {}
+[28.093176] (-) TimerEvent: {}
+[28.193513] (-) TimerEvent: {}
+[28.293832] (-) TimerEvent: {}
+[28.394142] (-) TimerEvent: {}
+[28.494481] (-) TimerEvent: {}
+[28.594786] (-) TimerEvent: {}
+[28.695106] (-) TimerEvent: {}
+[28.795461] (-) TimerEvent: {}
+[28.896183] (-) TimerEvent: {}
+[28.996475] (-) TimerEvent: {}
+[29.096782] (-) TimerEvent: {}
+[29.197086] (-) TimerEvent: {}
+[29.297413] (-) TimerEvent: {}
+[29.397738] (-) TimerEvent: {}
+[29.498062] (-) TimerEvent: {}
+[29.598398] (-) TimerEvent: {}
+[29.698708] (-) TimerEvent: {}
+[29.799055] (-) TimerEvent: {}
+[29.899473] (-) TimerEvent: {}
+[29.999801] (-) TimerEvent: {}
+[30.100170] (-) TimerEvent: {}
+[30.200525] (-) TimerEvent: {}
+[30.300851] (-) TimerEvent: {}
+[30.401191] (-) TimerEvent: {}
+[30.501758] (-) TimerEvent: {}
+[30.602099] (-) TimerEvent: {}
+[30.702430] (-) TimerEvent: {}
+[30.802757] (-) TimerEvent: {}
+[30.903087] (-) TimerEvent: {}
+[31.003422] (-) TimerEvent: {}
+[31.103728] (-) TimerEvent: {}
+[31.204055] (-) TimerEvent: {}
+[31.304388] (-) TimerEvent: {}
+[31.404740] (-) TimerEvent: {}
+[31.505038] (-) TimerEvent: {}
+[31.605350] (-) TimerEvent: {}
+[31.705666] (-) TimerEvent: {}
+[31.806002] (-) TimerEvent: {}
+[31.906333] (-) TimerEvent: {}
+[32.006651] (-) TimerEvent: {}
+[32.106958] (-) TimerEvent: {}
+[32.207656] (-) TimerEvent: {}
+[32.308103] (-) TimerEvent: {}
+[32.408535] (-) TimerEvent: {}
+[32.509009] (-) TimerEvent: {}
+[32.609367] (-) TimerEvent: {}
+[32.709732] (-) TimerEvent: {}
+[32.810162] (-) TimerEvent: {}
+[32.910624] (-) TimerEvent: {}
+[33.012502] (-) TimerEvent: {}
+[33.113432] (-) TimerEvent: {}
+[33.213767] (-) TimerEvent: {}
+[33.314122] (-) TimerEvent: {}
+[33.414560] (-) TimerEvent: {}
+[33.514976] (-) TimerEvent: {}
+[33.615651] (-) TimerEvent: {}
+[33.716049] (-) TimerEvent: {}
+[33.816420] (-) TimerEvent: {}
+[33.916850] (-) TimerEvent: {}
+[34.017371] (-) TimerEvent: {}
+[34.117743] (-) TimerEvent: {}
+[34.218121] (-) TimerEvent: {}
+[34.318498] (-) TimerEvent: {}
+[34.418876] (-) TimerEvent: {}
+[34.519292] (-) TimerEvent: {}
+[34.619751] (-) TimerEvent: {}
+[34.720311] (-) TimerEvent: {}
+[34.820794] (-) TimerEvent: {}
+[34.921189] (-) TimerEvent: {}
+[35.021802] (-) TimerEvent: {}
+[35.122318] (-) TimerEvent: {}
+[35.222744] (-) TimerEvent: {}
+[35.323215] (-) TimerEvent: {}
+[35.423632] (-) TimerEvent: {}
+[35.524126] (-) TimerEvent: {}
+[35.624545] (-) TimerEvent: {}
+[35.725376] (-) TimerEvent: {}
+[35.825810] (-) TimerEvent: {}
+[35.926252] (-) TimerEvent: {}
+[36.027214] (-) TimerEvent: {}
+[36.127592] (-) TimerEvent: {}
+[36.227953] (-) TimerEvent: {}
+[36.331308] (-) TimerEvent: {}
+[36.431774] (-) TimerEvent: {}
+[36.532566] (-) TimerEvent: {}
+[36.633423] (-) TimerEvent: {}
+[36.733835] (-) TimerEvent: {}
+[36.834216] (-) TimerEvent: {}
+[36.934580] (-) TimerEvent: {}
+[37.035130] (-) TimerEvent: {}
+[37.135519] (-) TimerEvent: {}
+[37.235891] (-) TimerEvent: {}
+[37.336367] (-) TimerEvent: {}
+[37.436780] (-) TimerEvent: {}
+[37.537216] (-) TimerEvent: {}
+[37.637583] (-) TimerEvent: {}
+[37.737963] (-) TimerEvent: {}
+[37.838356] (-) TimerEvent: {}
+[37.938742] (-) TimerEvent: {}
+[38.039129] (-) TimerEvent: {}
+[38.139516] (-) TimerEvent: {}
+[38.239886] (-) TimerEvent: {}
+[38.340245] (-) TimerEvent: {}
+[38.440599] (-) TimerEvent: {}
+[38.540947] (-) TimerEvent: {}
+[38.641287] (-) TimerEvent: {}
+[38.741614] (-) TimerEvent: {}
+[38.841952] (-) TimerEvent: {}
+[38.942313] (-) TimerEvent: {}
+[39.042669] (-) TimerEvent: {}
+[39.143026] (-) TimerEvent: {}
+[39.243416] (-) TimerEvent: {}
+[39.343781] (-) TimerEvent: {}
+[39.444204] (-) TimerEvent: {}
+[39.544594] (-) TimerEvent: {}
+[39.644930] (-) TimerEvent: {}
+[39.745243] (-) TimerEvent: {}
+[39.845560] (-) TimerEvent: {}
+[39.945897] (-) TimerEvent: {}
+[40.046267] (-) TimerEvent: {}
+[40.146646] (-) TimerEvent: {}
+[40.246976] (-) TimerEvent: {}
+[40.347311] (-) TimerEvent: {}
+[40.447659] (-) TimerEvent: {}
+[40.548002] (-) TimerEvent: {}
+[40.648358] (-) TimerEvent: {}
+[40.748701] (-) TimerEvent: {}
+[40.849034] (-) TimerEvent: {}
+[40.949370] (-) TimerEvent: {}
+[41.049729] (-) TimerEvent: {}
+[41.150059] (-) TimerEvent: {}
+[41.250396] (-) TimerEvent: {}
+[41.350745] (-) TimerEvent: {}
+[41.451044] (-) TimerEvent: {}
+[41.551287] (-) TimerEvent: {}
+[41.651541] (-) TimerEvent: {}
+[41.751815] (-) TimerEvent: {}
+[41.852104] (-) TimerEvent: {}
+[41.952386] (-) TimerEvent: {}
+[42.052742] (-) TimerEvent: {}
+[42.153073] (-) TimerEvent: {}
+[42.253402] (-) TimerEvent: {}
+[42.353686] (-) TimerEvent: {}
+[42.454002] (-) TimerEvent: {}
+[42.554298] (-) TimerEvent: {}
+[42.654602] (-) TimerEvent: {}
+[42.755019] (-) TimerEvent: {}
+[42.855287] (-) TimerEvent: {}
+[42.955561] (-) TimerEvent: {}
+[43.055873] (-) TimerEvent: {}
+[43.156151] (-) TimerEvent: {}
+[43.256439] (-) TimerEvent: {}
+[43.356693] (-) TimerEvent: {}
+[43.456963] (-) TimerEvent: {}
+[43.557270] (-) TimerEvent: {}
+[43.657554] (-) TimerEvent: {}
+[43.757845] (-) TimerEvent: {}
+[43.858145] (-) TimerEvent: {}
+[43.958476] (-) TimerEvent: {}
+[44.058800] (-) TimerEvent: {}
+[44.159192] (-) TimerEvent: {}
+[44.259938] (-) TimerEvent: {}
+[44.360361] (-) TimerEvent: {}
+[44.460724] (-) TimerEvent: {}
+[44.561011] (-) TimerEvent: {}
+[44.661363] (-) TimerEvent: {}
+[44.761711] (-) TimerEvent: {}
+[44.861992] (-) TimerEvent: {}
+[44.962272] (-) TimerEvent: {}
+[45.062547] (-) TimerEvent: {}
+[45.162831] (-) TimerEvent: {}
+[45.263167] (-) TimerEvent: {}
+[45.363450] (-) TimerEvent: {}
+[45.463760] (-) TimerEvent: {}
+[45.564069] (-) TimerEvent: {}
+[45.664414] (-) TimerEvent: {}
+[45.764769] (-) TimerEvent: {}
+[45.865131] (-) TimerEvent: {}
+[45.965429] (-) TimerEvent: {}
+[46.065838] (-) TimerEvent: {}
+[46.166221] (-) TimerEvent: {}
+[46.266617] (-) TimerEvent: {}
+[46.366927] (-) TimerEvent: {}
+[46.467319] (-) TimerEvent: {}
+[46.567811] (-) TimerEvent: {}
+[46.668446] (-) TimerEvent: {}
+[46.769006] (-) TimerEvent: {}
+[46.869368] (-) TimerEvent: {}
+[46.969767] (-) TimerEvent: {}
+[47.070092] (-) TimerEvent: {}
+[47.170406] (-) TimerEvent: {}
+[47.270744] (-) TimerEvent: {}
+[47.371068] (-) TimerEvent: {}
+[47.471443] (-) TimerEvent: {}
+[47.571836] (-) TimerEvent: {}
+[47.672260] (-) TimerEvent: {}
+[47.772520] (-) TimerEvent: {}
+[47.872773] (-) TimerEvent: {}
+[47.973041] (-) TimerEvent: {}
+[48.073361] (-) TimerEvent: {}
+[48.173685] (-) TimerEvent: {}
+[48.274006] (-) TimerEvent: {}
+[48.374315] (-) TimerEvent: {}
+[48.474668] (-) TimerEvent: {}
+[48.575078] (-) TimerEvent: {}
+[48.675614] (-) TimerEvent: {}
+[48.775966] (-) TimerEvent: {}
+[48.876325] (-) TimerEvent: {}
+[48.976701] (-) TimerEvent: {}
+[49.076976] (-) TimerEvent: {}
+[49.177343] (-) TimerEvent: {}
+[49.277608] (-) TimerEvent: {}
+[49.377918] (-) TimerEvent: {}
+[49.478224] (-) TimerEvent: {}
+[49.578513] (-) TimerEvent: {}
+[49.678850] (-) TimerEvent: {}
+[49.779303] (-) TimerEvent: {}
+[49.879626] (-) TimerEvent: {}
+[49.979957] (-) TimerEvent: {}
+[50.080282] (-) TimerEvent: {}
+[50.180611] (-) TimerEvent: {}
+[50.280933] (-) TimerEvent: {}
+[50.381271] (-) TimerEvent: {}
+[50.481596] (-) TimerEvent: {}
+[50.581951] (-) TimerEvent: {}
+[50.682306] (-) TimerEvent: {}
+[50.782654] (-) TimerEvent: {}
+[50.883175] (-) TimerEvent: {}
+[50.983552] (-) TimerEvent: {}
+[51.083946] (-) TimerEvent: {}
+[51.184300] (-) TimerEvent: {}
+[51.262785] (as2_platform_crazyflie) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable as2_platform_crazyflie_node\x1b[0m\n'}
+[51.284410] (-) TimerEvent: {}
+[51.384756] (-) TimerEvent: {}
+[51.419363] (as2_platform_crazyflie) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable as2_platform_crazyflie_swarm_node\x1b[0m\n'}
+[51.484883] (-) TimerEvent: {}
+[51.585299] (-) TimerEvent: {}
+[51.685710] (-) TimerEvent: {}
+[51.786161] (-) TimerEvent: {}
+[51.886647] (-) TimerEvent: {}
+[51.987165] (-) TimerEvent: {}
+[52.087646] (-) TimerEvent: {}
+[52.188185] (-) TimerEvent: {}
+[52.288740] (-) TimerEvent: {}
+[52.389249] (-) TimerEvent: {}
+[52.489645] (-) TimerEvent: {}
+[52.590030] (-) TimerEvent: {}
+[52.690372] (-) TimerEvent: {}
+[52.790663] (-) TimerEvent: {}
+[52.890944] (-) TimerEvent: {}
+[52.991251] (-) TimerEvent: {}
+[53.091559] (-) TimerEvent: {}
+[53.191883] (-) TimerEvent: {}
+[53.236332] (as2_platform_crazyflie) StdoutLine: {'line': b'[100%] Built target as2_platform_crazyflie_node\n'}
+[53.291993] (-) TimerEvent: {}
+[53.352581] (as2_platform_crazyflie) StdoutLine: {'line': b'[100%] Built target as2_platform_crazyflie_swarm_node\n'}
+[53.365222] (as2_platform_crazyflie) CommandEnded: {'returncode': 0}
+[53.392085] (-) TimerEvent: {}
+[53.399116] (as2_platform_crazyflie) JobProgress: {'identifier': 'as2_platform_crazyflie', 'progress': 'install'}
+[53.400043] (as2_platform_crazyflie) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie'], 'cwd': '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thinkpad'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thinkpad'), ('OLDPWD', '/home/thinkpad'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '2182'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('AS2_GZ_ASSETS_SCRIPT_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/scripts'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thinkpad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thinkpad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/thinkpad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/thinkpad/.local/bin'), ('SESSION_MANAGER', 'local/thinkpad-ThinkPad-X13-Gen-1:@/tmp/.ICE-unix/1949,unix/thinkpad-ThinkPad-X13-Gen-1:/tmp/.ICE-unix/1949'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5c37dd3_0a71_4b51_a566_3e28f65d802f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1AGIR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/opt/ros/humble/lib'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_assets/worlds:/opt/ros/humble/share/as2_gazebo_assets/models'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share/as2_gazebo_classic_assets/worlds'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thinkpad/crazyflie-firmware/build:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[53.408227] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[53.408511] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch\n'}
+[53.408690] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_aideck_stream_launch.py\n'}
+[53.408883] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_swarm_launch.py\n'}
+[53.409067] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/__pycache__\n'}
+[53.409229] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/__pycache__/crazyflie_swarm_launch.cpython-310.pyc\n'}
+[53.409414] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config\n'}
+[53.409583] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/swarm_config_file.yaml\n'}
+[53.409760] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/control_modes.yaml\n'}
+[53.409912] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/platform_config_file.yaml\n'}
+[53.410058] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/aideck_config_file.yaml\n'}
+[53.410197] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/camera_calibration.yaml\n'}
+[53.410338] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node\n'}
+[53.417891] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Set runtime path of "/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node" to ""\n'}
+[53.418145] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node\n'}
+[53.426440] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Set runtime path of "/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node" to ""\n'}
+[53.426737] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.sh\n'}
+[53.426963] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.dsv\n'}
+[53.427143] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info\n'}
+[53.427358] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info/dependency_links.txt\n'}
+[53.427529] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info/PKG-INFO\n'}
+[53.427708] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info/SOURCES.txt\n'}
+[53.427849] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info/top_level.txt\n'}
+[53.427983] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie\n'}
+[53.428113] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py\n'}
+[53.428241] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py\n'}
+[53.481401] (as2_platform_crazyflie) StdoutLine: {'line': b"Listing '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie'...\n"}
+[53.481664] (as2_platform_crazyflie) StdoutLine: {'line': b"Compiling '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py'...\n"}
+[53.481823] (as2_platform_crazyflie) StdoutLine: {'line': b"Compiling '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py'...\n"}
+[53.488089] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/aideck_node.py\n'}
+[53.488370] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/ament_index/resource_index/package_run_dependencies/as2_platform_crazyflie\n'}
+[53.488594] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/ament_index/resource_index/parent_prefix_path/as2_platform_crazyflie\n'}
+[53.488790] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.sh\n'}
+[53.488957] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.dsv\n'}
+[53.489143] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.sh\n'}
+[53.489296] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.dsv\n'}
+[53.489445] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.bash\n'}
+[53.489611] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.sh\n'}
+[53.489766] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.zsh\n'}
+[53.489922] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.dsv\n'}
+[53.490070] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.dsv\n'}
+[53.490222] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/ament_index/resource_index/packages/as2_platform_crazyflie\n'}
+[53.490372] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig.cmake\n'}
+[53.490508] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig-version.cmake\n'}
+[53.490642] (as2_platform_crazyflie) StdoutLine: {'line': b'-- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.xml\n'}
+[53.492377] (-) TimerEvent: {}
+[53.492897] (as2_platform_crazyflie) CommandEnded: {'returncode': 0}
+[53.540057] (as2_platform_crazyflie) JobEnded: {'identifier': 'as2_platform_crazyflie', 'rc': 0}
+[53.540947] (-) EventReactorShutdown: {}

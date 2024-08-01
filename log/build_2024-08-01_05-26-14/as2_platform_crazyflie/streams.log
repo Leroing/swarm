@@ -1,0 +1,139 @@
+[0.016s] Invoking command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie -DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.233s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.366s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.371s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.592s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.707s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.709s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.775s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.780s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.791s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.848s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.955s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.959s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.096s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.170s] -- Looking for pthread.h
+[1.243s] -- Looking for pthread.h - found
+[1.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.317s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.318s] -- Found Threads: TRUE  
+[1.507s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.644s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.665s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.754s] -- Found as2_core: 1.0.9 (/opt/ros/humble/share/as2_core/cmake)
+[2.223s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.237s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.237s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.341s] -- crazyflie_cpp not found
+[19.800s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[19.810s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.945s] -- Added test 'copyright' to check source files copyright and LICENSE
+[19.951s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.952s] -- Configured cppcheck include dirs: /home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie/include;/home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie/include/as2_platform_crazyflie
+[19.952s] -- Configured cppcheck exclude dirs and/or files: 
+[19.958s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.958s] -- Configured cpplint exclude dirs and/or files: 
+[19.959s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.961s] -- Added test 'lint_cmake' to check CMake code style
+[19.962s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.965s] -- Added test 'uncrustify' to check C / C++ code style
+[19.965s] -- Configured uncrustify additional arguments: 
+[19.966s] -- Added test 'xmllint' to check XML markup files
+[19.967s] -- Configuring done
+[19.994s] -- Generating done
+[19.997s] -- Build files have been written to: /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie
+[20.013s] Invoked command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie -DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie
+[20.015s] Invoking command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie -- -j8 -l8
+[20.065s] [ 11%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[20.065s] [ 11%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[20.065s] [ 16%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[20.067s] [ 22%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[20.068s] [ 27%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[20.068s] [ 33%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[20.074s] [ 38%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[20.076s] [ 38%] Built target ament_cmake_python_copy_as2_platform_crazyflie
+[20.531s] [ 44%] [32mBuilding CXX object _deps/crazyflie_cpp-build/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[20.751s] running egg_info
+[20.752s] creating as2_platform_crazyflie.egg-info
+[20.753s] writing as2_platform_crazyflie.egg-info/PKG-INFO
+[20.753s] writing dependency_links to as2_platform_crazyflie.egg-info/dependency_links.txt
+[20.753s] writing top-level names to as2_platform_crazyflie.egg-info/top_level.txt
+[20.754s] writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+[20.759s] reading manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+[20.760s] writing manifest file 'as2_platform_crazyflie.egg-info/SOURCES.txt'
+[20.822s] [ 44%] Built target ament_cmake_python_build_as2_platform_crazyflie_egg
+[23.614s] [ 50%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[23.724s] [ 50%] Built target crazyflieLinkCpp
+[23.742s] [ 55%] [32mBuilding CXX object _deps/crazyflie_cpp-build/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[23.743s] [ 61%] [32mBuilding CXX object _deps/crazyflie_cpp-build/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[26.545s] [ 66%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[26.633s] [ 66%] Built target crazyflie_cpp
+[26.653s] [ 77%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_swarm_node.dir/src/crazyflie_platform.cpp.o[0m
+[26.653s] [ 77%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_node.dir/src/crazyflie_platform.cpp.o[0m
+[26.655s] [ 83%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_node.dir/src/crazyflie_node.cpp.o[0m
+[26.655s] [ 88%] [32mBuilding CXX object CMakeFiles/as2_platform_crazyflie_swarm_node.dir/src/crazyflie_swarm_nodes.cpp.o[0m
+[51.262s] [ 94%] [32m[1mLinking CXX executable as2_platform_crazyflie_node[0m
+[51.419s] [100%] [32m[1mLinking CXX executable as2_platform_crazyflie_swarm_node[0m
+[53.236s] [100%] Built target as2_platform_crazyflie_node
+[53.352s] [100%] Built target as2_platform_crazyflie_swarm_node
+[53.365s] Invoked command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie -- -j8 -l8
+[53.400s] Invoking command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie
+[53.408s] -- Install configuration: ""
+[53.408s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch
+[53.408s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_aideck_stream_launch.py
+[53.408s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/crazyflie_swarm_launch.py
+[53.408s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/__pycache__
+[53.408s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/launch/__pycache__/crazyflie_swarm_launch.cpython-310.pyc
+[53.409s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config
+[53.409s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/swarm_config_file.yaml
+[53.409s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/control_modes.yaml
+[53.409s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/platform_config_file.yaml
+[53.409s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/aideck_config_file.yaml
+[53.409s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/config/camera_calibration.yaml
+[53.409s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node
+[53.417s] -- Set runtime path of "/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_node" to ""
+[53.417s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node
+[53.426s] -- Set runtime path of "/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/as2_platform_crazyflie_swarm_node" to ""
+[53.426s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.sh
+[53.426s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/pythonpath.dsv
+[53.426s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info
+[53.427s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info/dependency_links.txt
+[53.427s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info/PKG-INFO
+[53.427s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info/SOURCES.txt
+[53.427s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie-1.0.9-py3.10.egg-info/top_level.txt
+[53.427s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie
+[53.427s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py
+[53.427s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py
+[53.481s] Listing '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie'...
+[53.481s] Compiling '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/__init__.py'...
+[53.481s] Compiling '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/local/lib/python3.10/dist-packages/as2_platform_crazyflie/viewer.py'...
+[53.487s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/as2_platform_crazyflie/aideck_node.py
+[53.488s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/ament_index/resource_index/package_run_dependencies/as2_platform_crazyflie
+[53.488s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/ament_index/resource_index/parent_prefix_path/as2_platform_crazyflie
+[53.488s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.sh
+[53.488s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/ament_prefix_path.dsv
+[53.488s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.sh
+[53.488s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/environment/path.dsv
+[53.489s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.bash
+[53.489s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.sh
+[53.489s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.zsh
+[53.489s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/local_setup.dsv
+[53.489s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.dsv
+[53.489s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/ament_index/resource_index/packages/as2_platform_crazyflie
+[53.490s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig.cmake
+[53.490s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/cmake/as2_platform_crazyflieConfig-version.cmake
+[53.490s] -- Installing: /home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.xml
+[53.493s] Invoked command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie

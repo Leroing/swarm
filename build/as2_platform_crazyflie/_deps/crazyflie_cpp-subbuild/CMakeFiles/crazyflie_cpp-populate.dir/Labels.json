@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/CMakeFiles/crazyflie_cpp-populate"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/CMakeFiles/crazyflie_cpp-populate.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/CMakeFiles/crazyflie_cpp-populate-complete.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/crazyflie_cpp-populate-prefix/src/crazyflie_cpp-populate-stamp/crazyflie_cpp-populate-build.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/crazyflie_cpp-populate-prefix/src/crazyflie_cpp-populate-stamp/crazyflie_cpp-populate-configure.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/crazyflie_cpp-populate-prefix/src/crazyflie_cpp-populate-stamp/crazyflie_cpp-populate-download.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/crazyflie_cpp-populate-prefix/src/crazyflie_cpp-populate-stamp/crazyflie_cpp-populate-install.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/crazyflie_cpp-populate-prefix/src/crazyflie_cpp-populate-stamp/crazyflie_cpp-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/crazyflie_cpp-populate-prefix/src/crazyflie_cpp-populate-stamp/crazyflie_cpp-populate-patch.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/crazyflie_cpp-populate-prefix/src/crazyflie_cpp-populate-stamp/crazyflie_cpp-populate-test.rule"
+		},
+		{
+			"file" : "/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie/_deps/crazyflie_cpp-subbuild/crazyflie_cpp-populate-prefix/src/crazyflie_cpp-populate-stamp/crazyflie_cpp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"crazyflie_cpp-populate"
+		],
+		"name" : "crazyflie_cpp-populate"
+	}
+}

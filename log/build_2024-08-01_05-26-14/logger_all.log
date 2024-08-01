@@ -1,0 +1,427 @@
+[0.146s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.146s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78ce3123b520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78ce313eca60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78ce313eca60>>, mixin_verb=('build',))
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.369s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thinkpad/aerostack2ws'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'ros'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie' with type 'ros.ament_cmake' and name 'as2_platform_crazyflie'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_optitrack) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap_optitrack' with type 'ros.ament_cmake' and name 'mocap_optitrack'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/real_config) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_25_26) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_36_51) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_29-20_38_59) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/rosbag/rosbags/rosbag2_2024_07_30-03_49_23) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extension 'ros'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extensions ['cmake', 'python']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extension 'cmake'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extension 'python'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extensions ['python_setup_py']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/sim_config) by extension 'python_setup_py'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/tmuxinator) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/utils) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extension 'ros'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extensions ['cmake', 'python']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extension 'cmake'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extension 'python'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extensions ['python_setup_py']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz) by extension 'python_setup_py'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_crazyflie/viz/__pycache__) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/humble
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.478s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'as2_platform_crazyflie' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding as2_platform_crazyflie
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'as2_platform_crazyflie' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'as2_platform_crazyflie' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie', 'merge_install': False, 'path': '/home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'mocap_optitrack' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'mocap_optitrack' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thinkpad/aerostack2ws/build/mocap_optitrack', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thinkpad/aerostack2ws/install/mocap_optitrack', 'merge_install': False, 'path': '/home/thinkpad/aerostack2ws/src/mocap_optitrack', 'symlink_install': False, 'test_result_base': None}
+[0.480s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.481s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie' with build type 'ament_cmake'
+[0.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie'
+[0.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thinkpad/aerostack2ws/src/mocap_optitrack' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thinkpad/aerostack2ws/src/mocap_optitrack'
+[0.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie -DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinkpad/aerostack2ws/src/mocap_optitrack -DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/mocap_optitrack
+[2.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinkpad/aerostack2ws/src/mocap_optitrack -DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/mocap_optitrack
+[2.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinkpad/aerostack2ws/build/mocap_optitrack -- -j8 -l8
+[10.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinkpad/aerostack2ws/build/mocap_optitrack -- -j8 -l8
+[10.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinkpad/aerostack2ws/build/mocap_optitrack
+[10.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_optitrack)
+[10.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinkpad/aerostack2ws/build/mocap_optitrack
+[10.425s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack' for CMake module files
+[10.426s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack' for CMake config files
+[10.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack', 'cmake_prefix_path')
+[10.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/hook/cmake_prefix_path.ps1'
+[10.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/hook/cmake_prefix_path.dsv'
+[10.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/hook/cmake_prefix_path.sh'
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/lib'
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/bin'
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/lib/pkgconfig/mocap_optitrack.pc'
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/lib/python3.10/site-packages'
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/bin'
+[10.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.ps1'
+[10.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.dsv'
+[10.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.sh'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.bash'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.zsh'
+[10.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/colcon-core/packages/mocap_optitrack)
+[10.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_optitrack)
+[10.452s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack' for CMake module files
+[10.452s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack' for CMake config files
+[10.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_optitrack', 'cmake_prefix_path')
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/hook/cmake_prefix_path.ps1'
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/hook/cmake_prefix_path.dsv'
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/hook/cmake_prefix_path.sh'
+[10.454s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/lib'
+[10.454s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/bin'
+[10.454s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/lib/pkgconfig/mocap_optitrack.pc'
+[10.454s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/lib/python3.10/site-packages'
+[10.454s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/mocap_optitrack/bin'
+[10.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.ps1'
+[10.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.dsv'
+[10.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.sh'
+[10.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.bash'
+[10.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/mocap_optitrack/package.zsh'
+[10.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thinkpad/aerostack2ws/install/mocap_optitrack/share/colcon-core/packages/mocap_optitrack)
+[20.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinkpad/aerostack2ws/src/aerostack2/as2_aerial_platforms/as2_platform_crazyflie -DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie
+[20.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie -- -j8 -l8
+[53.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie -- -j8 -l8
+[53.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie
+[53.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(as2_platform_crazyflie)
+[53.974s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie' for CMake module files
+[53.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinkpad/aerostack2ws/build/as2_platform_crazyflie' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinkpad/aerostack2ws/build/as2_platform_crazyflie
+[53.976s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie' for CMake config files
+[53.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('as2_platform_crazyflie', 'cmake_prefix_path')
+[53.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/hook/cmake_prefix_path.ps1'
+[53.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/hook/cmake_prefix_path.dsv'
+[53.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/hook/cmake_prefix_path.sh'
+[53.978s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib'
+[53.978s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/bin'
+[53.978s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/pkgconfig/as2_platform_crazyflie.pc'
+[53.978s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/python3.10/site-packages'
+[53.979s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/bin'
+[53.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.ps1'
+[53.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.dsv'
+[53.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.sh'
+[53.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.bash'
+[53.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.zsh'
+[53.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/colcon-core/packages/as2_platform_crazyflie)
+[54.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(as2_platform_crazyflie)
+[54.014s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie' for CMake module files
+[54.015s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie' for CMake config files
+[54.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('as2_platform_crazyflie', 'cmake_prefix_path')
+[54.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/hook/cmake_prefix_path.ps1'
+[54.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/hook/cmake_prefix_path.dsv'
+[54.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/hook/cmake_prefix_path.sh'
+[54.016s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib'
+[54.017s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/bin'
+[54.017s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/pkgconfig/as2_platform_crazyflie.pc'
+[54.017s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/lib/python3.10/site-packages'
+[54.017s] Level 1:colcon.colcon_core.environment:checking '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/bin'
+[54.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.ps1'
+[54.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.dsv'
+[54.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.sh'
+[54.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.bash'
+[54.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/as2_platform_crazyflie/package.zsh'
+[54.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thinkpad/aerostack2ws/install/as2_platform_crazyflie/share/colcon-core/packages/as2_platform_crazyflie)
+[54.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[54.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[54.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[54.021s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[54.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[54.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[54.030s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[54.044s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[54.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thinkpad/aerostack2ws/install/local_setup.ps1'
+[54.045s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thinkpad/aerostack2ws/install/_local_setup_util_ps1.py'
+[54.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thinkpad/aerostack2ws/install/setup.ps1'
+[54.048s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thinkpad/aerostack2ws/install/local_setup.sh'
+[54.049s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thinkpad/aerostack2ws/install/_local_setup_util_sh.py'
+[54.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thinkpad/aerostack2ws/install/setup.sh'
+[54.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thinkpad/aerostack2ws/install/local_setup.bash'
+[54.052s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thinkpad/aerostack2ws/install/setup.bash'
+[54.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thinkpad/aerostack2ws/install/local_setup.zsh'
+[54.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thinkpad/aerostack2ws/install/setup.zsh'

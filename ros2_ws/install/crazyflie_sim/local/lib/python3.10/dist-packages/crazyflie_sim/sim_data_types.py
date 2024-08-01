@@ -1,1 +1,0 @@
-/special/ros2_ws/src/crazyswarm2/crazyflie_sim/crazyflie_sim/sim_data_types.py

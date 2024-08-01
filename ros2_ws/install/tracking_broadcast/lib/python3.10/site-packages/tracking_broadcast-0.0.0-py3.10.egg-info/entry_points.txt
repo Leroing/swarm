@@ -1,3 +1,0 @@
-[console_scripts]
-tracker = tracking_broadcast.tracker:main
-

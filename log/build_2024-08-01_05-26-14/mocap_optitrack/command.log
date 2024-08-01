@@ -1,0 +1,6 @@
+Invoking command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinkpad/aerostack2ws/src/mocap_optitrack -DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/mocap_optitrack
+Invoked command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinkpad/aerostack2ws/src/mocap_optitrack -DCMAKE_INSTALL_PREFIX=/home/thinkpad/aerostack2ws/install/mocap_optitrack
+Invoking command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinkpad/aerostack2ws/build/mocap_optitrack -- -j8 -l8
+Invoked command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinkpad/aerostack2ws/build/mocap_optitrack -- -j8 -l8
+Invoking command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinkpad/aerostack2ws/build/mocap_optitrack
+Invoked command in '/home/thinkpad/aerostack2ws/build/mocap_optitrack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinkpad/aerostack2ws/build/mocap_optitrack
